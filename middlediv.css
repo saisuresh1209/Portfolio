@@ -1,0 +1,101 @@
+.middle-div{
+    margin-top: 27px;
+    height: 3000px;
+    background-color: black;
+    position: relative;
+    width: 100vw;
+
+}
+
+.head-topics1{
+    color: rgb(230, 175, 46);
+    font-family: Roboto,Arial;
+    font-size: 20px;
+    font-weight: 790;
+    cursor: pointer;
+    margin-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.personl-intro1{
+    color: white;
+    font-family: Roboto,Arial;
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+.container{
+    margin-left: 70px;
+    height: 500px;
+    width: 400px;
+    border-style: solid;
+    border-color: rgb(137, 129, 110);
+    border-width: 2px;
+}
+
+.head-title{
+    color: white;
+    font-family: Roboto, Arial;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+
+.personal-description1{
+    color: #ccc;
+    font-family: Roboto,Arial;
+    opacity: 0.8;
+    line-height: 20px;
+    margin-left: 30px;
+    width: 300px;
+    line-height: 25px;
+    font-size: 19px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.live-version{
+    margin-left: 30px;
+    height: 70px;
+    width: 150px;
+    background-color: rgb(255, 233, 181);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.source-code{
+    color: white;
+    margin-left: 10px;
+    height: 70px;
+    width: 150px;
+    background-color: rgb(83, 11, 189);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.box{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,Arial;
+    font-weight: 800;
+    font-size: 20px;
+    width: 50px;
+    padding-left: 10px;
+
+}
+
+.flex-box{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 25px;
+
+}
