@@ -1,10 +1,10 @@
 .middle-div{
     margin-top: 27px;
-    height: 3000px;
+    height: 1800px;
     background-color: black;
     position: relative;
     width: 100vw;
-
+    z-index: 10;
 }
 
 .head-topics1{
@@ -27,12 +27,29 @@
 }
 
 .container{
-    margin-left: 70px;
-    height: 500px;
     width: 400px;
     border-style: solid;
     border-color: rgb(137, 129, 110);
     border-width: 2px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.numbering{
+    position: absolute;
+    background-color: rgb(230, 175, 46);
+    height: 50px;
+    width: 30px;
+    top: 0;
+    left: 30px;
+}
+
+.number{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Roboto,Arial;
+    text-align: center;
+
 }
 
 .head-title{
@@ -80,7 +97,9 @@
     
 }
 
+
 .box{
+    text-align: left;
     margin: 0;
     padding: 0;
     font-family: Roboto,Arial;
@@ -93,9 +112,98 @@
 
 .flex-box{
    display: flex;
-   justify-content: space-between;
+  justify-content: center;
    align-items: center;
    flex-wrap: wrap;
-   gap: 25px;
+    gap: 25px;
+    column-gap: 70px;
+}
 
+.footer-div{
+    width: 250px;
+    background-color: rgb(230, 175, 46);
+    height: 45px;
+    margin-left: 70px;
+    border-radius: 2px;
+    margin-top: 25px;
+    border: none;
+}
+
+.footer-content{
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px ;
+    
+}
+
+.skills{
+    color: rgb(230, 175, 46);
+    font-family: Roboto,Arial;
+    font-size: 24px;
+    margin-left: 70px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.skills-content{
+    color: white;
+    margin-left: 70px;
+    font-family: Roboto,Arial;
+    font-size: 50px;
+}
+
+.skills-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-box{
+    display: grid;
+    grid-template-columns: 30px 150px;
+    border-radius: 5px;
+}
+
+.skill-num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 175, 46);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 60px;
+    font-family: Roboto, Arial;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.skill-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    background-color: rgb(61, 52, 139);
+    font-family: Roboto,Arial;
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-style: solid;
+    border-width: 0.05px;
+    border-color: aliceblue;
+}
+
+.footer-div1{
+    width: 250px;
+    background-color: rgb(230, 175, 46);
+    height: 45px;
+    border-radius: 2px;
+    margin-top: 25px;
+    border: none;
+    margin-left: 650px;
 }
