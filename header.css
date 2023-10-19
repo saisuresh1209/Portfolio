@@ -9,6 +9,12 @@
     z-index: 1000;
 }
 
+@media (max-width: 750px) {
+    .header{
+        max-width: 750px;
+    }
+}
+
 .left-section{
     flex: 1;
 }
