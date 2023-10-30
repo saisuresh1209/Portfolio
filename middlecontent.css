@@ -3,16 +3,13 @@
     display: flex;
 }
 
-@media (max-width: 750px){
-    .top-body{
-        max-width: 750px;
-    }
-}
+
 
 .content{
   margin-left: 60px;
   margin-top: 20px;
   position: relative;
+    width: auto;
 }
 
 .left-bar{
@@ -185,5 +182,87 @@
 }
 
 
+@media screen and (max-width:450px) {
+    .top-body{
+        flex-direction: column;
+        overflow-x: hidden;
+        height: auto;
+        overflow-y: hidden;
+    }
+    .personl-intro{
+        font-size: 30px;
+         width: 300px;
+    }
+    .personal-description{
+        font-size: 15px;
+        font-weight: 500;
+        opacity: 0.8;
+        line-height: 10px;
+    }
+    .soical-media-tag{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .soical-media-div{
+        margin-top: 15px;
+    }
+    .icons{
+        width: 25px;
+    }
+    .gold1{
+        height: 30px;
+        width: 150px;
+        font-size: 15px;
+        font-weight: 450;
+    }
+    .blue1{
+        height: 30px;
+        width: 112px;
+        font-size: 15px;
+        font-weight: 450;
+    }
 
+    .tumbnail{
+       margin-top: 20px;
+    }
+    .hero-pic{
+        margin-left: -20px;
+        height: 450px;
+    }
+    .bigg-circle{
+        bottom: -20px;
+        left: 10px;
+        height: 270px;
+        width: 270px;
+    }
+    
+    .small-circle{
+        position: absolute;
+        top: 0;
+        left: 10px;
+        height: 45px;
+        width: 45px;
+    }
+    .left-bar{
+        display: none;
+    }
+    .top-parallel-line{
+        width: 400px;
+        height: 35px;
+        top: 300px;
+        left: 50px;
+       
+    }
+    .bottom-parallel-line{
+        width: 380px;
+        height: 35px;
+        top: 400px;
+        left: 50px;
+        
+    }
+    .middle-parallel-line{
+        display: none;
+    }
+
+}
 
